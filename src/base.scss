@@ -1,0 +1,27 @@
+@import 'bootstrap-scss';
+
+$primary: #ff2b72;
+
+body {
+    background-color: #ebf1f5;
+    color: #262626;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-dark {
+    background-color: #2a3246!important;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    height: 40px;
+    background-color: $gray-100;
+    color: $gray-500;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
